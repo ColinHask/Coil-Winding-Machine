@@ -15,7 +15,7 @@ void setup() {
 
 void loop() {
   //loop to run for an amount of time before changing direction
-  // 3350 seems to be a full rotation?
+  // 3350 seems to be a full rotation? (NOT EXACT)
   for (int i = 0; i <= 3350; i++) {
     // put your main code here, to run repeatedly:
     // must set pin to low and back to high in order to do 1 step
