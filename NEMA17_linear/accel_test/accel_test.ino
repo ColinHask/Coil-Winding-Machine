@@ -16,13 +16,23 @@ AccelStepper stepper = AccelStepper(motorInterfaceType, stepPin, dirPin);
 
 void setup() {
   // Set the maximum speed and acceleration:
-  stepper.setMaxSpeed(1000);
-  stepper.setAcceleration(500);
+  stepper.setMaxSpeed(20000);
+  stepper.setAcceleration(1000);
 }
 
 void loop() {
   // Set the target position:
-  stepper.moveTo(8000);
+  // far edge (motor side)
+  stepper.moveTo(31850);
+  
+  // Run to target position with set speed and acceleration/deceleration:
+  stepper.runToPosition();
+
+  delay(1000);
+
+    // Set the target position (half):
+  stepper.moveTo(15925);
+  
   // Run to target position with set speed and acceleration/deceleration:
   stepper.runToPosition();
 
@@ -30,6 +40,7 @@ void loop() {
 
   // Move back to zero:
   stepper.moveTo(0);
+  
   stepper.runToPosition();
 
   delay(1000);
