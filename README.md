@@ -15,7 +15,7 @@ Coil winding machine software for custom axiel flux motor manufacturing. The ful
 
 ## LCD Screen
 
-**lcd1602ad_screen** is the folder for the lcd1602a screen. 
+**lcd1602ad_screen** is the folder for the lcd1602a screen.
 This is GUI for the machine and will handle inputs for:
    - Total winding spins
    - Wires in parallel
