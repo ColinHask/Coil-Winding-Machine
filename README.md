@@ -12,5 +12,6 @@ Coil winding machine software for custom axiel flux motor manufacturing. The ful
 > Refrence video: https://www.youtube.com/watch?v=FggSRQqB_a4
 
 
+
 ## LCD Screen
  - WIP
