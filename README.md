@@ -6,7 +6,7 @@ Coil winding machine software for custom axiel flux motor manufacturing. The ful
 ## Motors
 
 **NEMA17_linear** is the folder for the horizontal (linear) actuation stepper motor. 
- - This motor with move the *NEMA23_rotary* motor as it spins coils.
+  - This motor with move the *NEMA23_rotary* motor as it spins coils.
    
 **NEMA23_rotary** is the folder for the coil spinning stepper motor. 
 > Refrence video: https://www.youtube.com/watch?v=FggSRQqB_a4
@@ -14,4 +14,11 @@ Coil winding machine software for custom axiel flux motor manufacturing. The ful
 
 
 ## LCD Screen
- - WIP
+
+**lcd1602ad_screen** is the folder for the lcd1602a screen. 
+This is GUI for the machine and will handle inputs for:
+   - Total winding spins
+   - Wires in parallel
+   - Wire gauge
+   - Bobbin width 
+> Refrence video: https://www.youtube.com/watch?v=BJ93XCcD858
