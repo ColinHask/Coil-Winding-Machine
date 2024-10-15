@@ -7,19 +7,24 @@ Coil winding machine software for custom axiel flux motor manufacturing. The ful
 
 **NEMA17_linear** is the folder for the horizontal (linear) actuation stepper motor. 
   - This motor with move the *NEMA23_rotary* motor as it spins coils.
+> Stepper motor library documentation: https://www.airspayce.com/mikem/arduino/AccelStepper/index.html
+
    
 **NEMA23_rotary** is the folder for the coil spinning stepper motor. 
 > Refrence video: https://www.youtube.com/watch?v=FggSRQqB_a4
 
-
+<br>
 
 ## LCD Screen
 
-**lcd1602a_screen** is the folder for the lcd1602a screen.
+**lcd2004a_screen** is the folder for the lcd2004a screen.
 
 This is GUI for the machine and will handle inputs for:
    - Total winding spins
    - Wires in parallel
    - Wire gauge
-   - Bobbin width 
+   - Bobbin width
+   - Bobbin Cir
+
+**lcd1602a** is a smaller version of the current screen that may be used for additional display needs.
 > Refrence video: https://www.youtube.com/watch?v=BJ93XCcD858
