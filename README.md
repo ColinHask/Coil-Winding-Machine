@@ -13,6 +13,8 @@ Coil winding machine software for custom axiel flux motor manufacturing. The ful
 **NEMA23_rotary** is the folder for the coil spinning stepper motor. 
 > Refrence video: https://www.youtube.com/watch?v=FggSRQqB_a4
 
+![wire diagram for NEMA23](https://github.com/ColinHask/Coil-Winding-Machine/blob/main/img/Nema23_wires.png)
+
 <br>
 
 ## LCD Screen
